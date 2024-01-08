@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background : #8e44ad; */
+    font-family: calibri;
+    display : flex;
+    flex-wrap : wrap;
+    padding-top : 15rem;
+}
+
+h2 {
+    font-size : 4rem;
+    position : absolute;
+    top : 7rem;
+    left : 4rem;
+}
+
+.btn_add {
+    position : absolute;
+    top : 12rem;
+    left : 4rem;
+    background : #8e44ad;
+    color : #fff;
+    border : none;
+    padding : 10px 20px;
+    font-family : Sans-serif;
+    font-size : 16px;
+    border-radius : 20px;
+    cursor : pointer;
+}
+
+.edit {
+    color: white;
+    background: #04AA6D;
+    border-radius: 10px;
+    border : none;
+    font-family: calibri;
+    font-size: 18px;
+    cursor: pointer;
+    padding : 5px 14px;
+}
+
+.delete {
+    color: white;
+    background: red;
+    border-radius: 10px;
+    border : none;
+    font-family: calibri;
+    font-size: 18px;
+    cursor: pointer;
+    padding : 5px 14px;
+}
+
+.note-wrapper {
+    background : #fff;
+    box-shadow : 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    width : 400px;
+    height : 250px;
+    margin : 30px 0 0 3.8rem;
+    
+}
+
+.note-wrapper .operations button {
+    margin-left: 0.7rem;
+    margin-top: 0.7rem;
+}
+
+.note-wrapper textarea{
+    font-family: calibri;
+    font-size : 15px;
+    width : 100%;
+    height : 230px;
+    padding : 20px;
+    resize : none;
+    border: none;
+    outline : none;
+}
+
+.main {
+    padding : 20px;
+}
+
+.hidden {
+    display : none;
+}
